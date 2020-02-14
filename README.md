@@ -4,6 +4,10 @@ Checks if a string is a palindrome.
 
 If you complile a binary you then you can run it as a CLI tool. This assumes you have golang installed.
 
+# Install
+
+`go get -u github.com/nbw/palindrome`
+
 ## Code Summary
 
 `palindorome/palindrome.go`
@@ -35,7 +39,7 @@ palindrome "racecar"
 palindrome" "A toyota's a Toyata"
 ```
 
-## Installation
+## Compile binary
 
 You can compile a binary with `Make install`
 
