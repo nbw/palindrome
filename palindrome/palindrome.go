@@ -6,10 +6,6 @@ import (
 	"strings"
 )
 
-func Blah(a int) int {
-	return a + 1
-}
-
 func IsPalindrome(input string) string {
 	if isPalindrome(input) == true {
 		return "A palindrome"
